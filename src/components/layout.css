@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
 }
+
 article,
 aside,
 details,
@@ -40,6 +41,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -198,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -226,14 +228,13 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 20px;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 36px;
   line-height: 1.1;
+  color: #1f2125;
+  font-weight: 700;
 }
 h2 {
   margin-left: 0;
@@ -260,14 +261,13 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 20px;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   text-rendering: optimizeLegibility;
-  font-size: 1.38316rem;
   line-height: 1.1;
+  font-size: 20px;
+color: #bf3116;
 }
 h4 {
   margin-left: 0;
@@ -613,8 +613,92 @@ pre tt:before,
 pre tt:after {
   content: '';
 }
+
+ul.top-menu{
+  float: right;
+  margin: 5px -15px 0 0;
+
+}
+
+ul.top-menu li{
+  float: left;
+  list-style: none;
+}
+
+ul.top-menu li a {
+    display: block;
+    color: #5c6270;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.wrapper > .main {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  padding-right: 35px;
+  width: 60%;
+  height: 150vh;
+}
+
+.wrapper > .sidenav{
+  position: -webkit-sticky;
+position: sticky;
+top: 20px;
+height: 600px;
+
+}
+
+.date-text {
+  border-bottom: 1px solid #ebecef;
+  padding-bottom: 10px;
+  color: #5c6270;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+.header {
+    margin: 0 auto;
+    max-width: 1001px;
+    height: 87px;
+    padding: 8px 15px 0;
+}
+
+.content-page {
+    margin: 0 auto;
+    max-width: 1001px;
+    padding: 2px 15px 1.45rem;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+}
+@media (max-width: 890px){
+  .hidden-xs {
+      display: none!important;
+  }
+  .header{
+      height: 73px;
+  }
+
+  .header img{
+    width: 285px;
+  }
+
+  h1{
+      font-size: 24px;
   }
 }
