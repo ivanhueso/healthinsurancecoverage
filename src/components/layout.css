@@ -42,6 +42,8 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
+  color: #1B75BB;
+  font-weight: 700;
 }
 a:active,
 a:hover {
@@ -246,13 +248,14 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 32px;
   line-height: 1.1;
+  color: #1f2125;
+  margin: 20px 0;
 }
+
 h3 {
   margin-left: 0;
   margin-right: 0;
@@ -382,7 +385,10 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1.2rem;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #2e3138;
 }
 figure {
   margin-left: 0;
@@ -649,7 +655,6 @@ ul.top-menu li a {
   flex: 1;
   padding-right: 35px;
   width: 60%;
-  height: 150vh;
 }
 
 .wrapper > .sidenav{
@@ -679,6 +684,33 @@ height: 600px;
     margin: 0 auto;
     max-width: 1001px;
     padding: 2px 15px 1.45rem;
+}
+
+footer{
+  margin-top: 30px;
+  padding: 60px 0 40px;
+  margin-top: 30px;
+  background: #2e3138;
+}
+footer .content{
+    margin: 0 auto;
+    max-width: 1001px;
+}
+footer p{
+  color: #abb0ba;
+  font-size: 14px;
+}
+
+footer hr{
+  margin: 20px 0;
+  border-top: 1px solid #454a54;
+}
+footer a, footer a:hover, footer a:visited {
+    color: #abb0ba;
+    font-weight: 400;
+}
+footer a:hover{
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 480px) {
