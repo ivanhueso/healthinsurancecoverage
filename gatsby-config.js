@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Health Insurance`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Subscribe today and get the lastest news on health insurance, compare prices, take the right choice.`,
     author: `@healthinsurancecoverage`,
   },
   plugins: [
@@ -18,13 +18,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `health-insurance-coverage`,
+        short_name: `hic`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#354eaa`,
+        theme_color: `#354eaa`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

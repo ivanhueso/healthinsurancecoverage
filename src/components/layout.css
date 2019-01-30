@@ -48,7 +48,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
-  color: #006DC2;
+  color: #354eaa;
   font-weight: 700;
 }
 
@@ -283,7 +283,7 @@ h1 {
   text-rendering: optimizeLegibility;
   font-size: 36px;
   line-height: 1.1;
-  color: #00527F;
+  color: #000;
   font-weight: 700;
 }
 
@@ -301,7 +301,7 @@ h2 {
   text-rendering: optimizeLegibility;
   font-size: 32px;
   line-height: 1.1;
-  color: #00527F;
+  color: #000;
   margin: 20px 0;
 }
 
@@ -759,7 +759,8 @@ ul.top-menu li a {
 
 img.float-right {
   float: right;
-  margin-left: 20px;
+  margin-left: 18px;
+  margin-bottom: 18px;
 }
 
 .date-text {
@@ -815,8 +816,8 @@ footer a:hover {
 }
 
 .btn {
-  background: rgb(0, 82, 127) none repeat scroll 0 0;
-  border-color: rgb(0, 82, 127);
+  background: #e6a422 none repeat scroll 0 0;
+  border-color: #e6a422;
   border-radius: 6px;
   color: #fff !important;
   font-size: 24px;
@@ -828,8 +829,8 @@ footer a:hover {
 
 .btn:hover {
   text-decoration: none;
-  background-color: #062436;
-  border-color: #062436;
+  background-color: #bf8616;
+  border-color: #bf8616;
   color: #fff;
 }
 

@@ -4,10 +4,9 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Image from '../components/image'
 import SEO from '../components/seo'
-import banner from '../images/banner-1.jpg' // Tell Webpack this JS file uses this image
-import banner2 from '../images/banner-2.jpg' // Tell Webpack this JS file uses this image
+import banner from '../images/banner-1.png' // Tell Webpack this JS file uses this image
 
-import IntroImg from '../images/five-ways-change-2019-intro-image.jpg' // Tell Webpack this JS file uses this image
+import IntroImg from '../images/five-ways-change-2019-intro-image.png' // Tell Webpack this JS file uses this image
 import CompareImg from '../images/health-insurance-price-comparison.png' // Tell Webpack this JS file uses this image
 
 export default class Index extends React.Component {
@@ -35,7 +34,7 @@ export default class Index extends React.Component {
     return (
       <Layout>
         <SEO
-          title="5 Ways Affordable Health Insurance in 2019"
+          title="New Rules for Health Insurance"
           keywords={[`gatsby`, `application`, `react`]}
         />
         <div class="wrapper">
@@ -51,7 +50,6 @@ export default class Index extends React.Component {
               class="float-right"
               alt="Virginia Photo"
               width="308"
-              height="185"
             />
             <p>
               <strong>United States </strong>
@@ -125,21 +123,24 @@ export default class Index extends React.Component {
               oportunities with{' '}
               <strong>Rates from Less than $89 a Month!</strong>
             </p>
-            <div style={{ maxWidth: `400px`, marginBottom: `1.45rem` }}>
-              <Image />
+            <div style={{ maxWidth: `500px`, marginBottom: `2.5rem` }}>
+              <a href="#">
+                {' '}
+                <Image />
+              </a>
             </div>
             <a
               class="btn"
               href="http://track.htrck402.com/click"
               target="_blank"
             >
-              Get Your New Rate Today - FREE »
+              Get Your New Rate - FREE »
             </a>
           </div>
           <div class="sidenav">
-            <img src={banner} alt="Select Cars" />
-            <br />
-            <img src={banner2} alt="Select Cars" />
+            <a href="#">
+              <img src={banner} alt="Need Help With Health Insurance Ad" />
+            </a>
           </div>
         </div>
       </Layout>
