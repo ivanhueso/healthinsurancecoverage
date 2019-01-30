@@ -31,14 +31,7 @@ const Footer = ({ siteTitle }) => (
       <hr />
       <p>
         © {new Date().getFullYear()}, All Rights Reserved. Health Insurance
-        Coverage --{' '}
-        <a href="#" title="Privacy Policy">
-          Privacy Policy
-        </a>{' '}
-        |{' '}
-        <a href="#" title="Terms of Use">
-          Terms of Use
-        </a>
+        Coverage{' '}
       </p>
     </div>
   </footer>
