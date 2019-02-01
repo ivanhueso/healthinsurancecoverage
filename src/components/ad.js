@@ -13,11 +13,11 @@ import Img from 'gatsby-image'
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const Image = () => (
+const Ad = () => (
   <StaticQuery
     query={graphql`
       query {
-        default: file(relativePath: { eq: "usa-map.png" }) {
+        default: file(relativePath: { eq: "ad.png" }) {
           childImageSharp {
             fluid(maxWidth: 500) {
               ...GatsbyImageSharpFluid
@@ -29,4 +29,4 @@ const Image = () => (
     render={data => <Img fluid={data.default.childImageSharp.fluid} />}
   />
 )
-export default Image
+export default Ad

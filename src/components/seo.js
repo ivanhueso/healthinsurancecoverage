@@ -64,6 +64,13 @@ function SEO({ description, lang, meta, keywords, title }) {
             link={[
               { rel: 'shortcut icon', type: 'image/png', href: `${icon16}` },
             ]}
+            script={[
+              {
+                type: 'text/javascript',
+                innerHTML:
+                  '(function(p,u,s,h){p._pcq=p._pcq||[];p._pcq.push(["_currentTime",Date.now()]);s=u.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.pushcrew.com/js/2b99d9c2c82adc315a620f7c0b772406.js";h=u.getElementsByTagName("script")[0];h.parentNode.insertBefore(s,h);})(window,document)',
+              },
+            ]}
           />
         )
       }}

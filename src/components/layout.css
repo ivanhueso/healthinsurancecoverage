@@ -748,13 +748,15 @@ ul.top-menu li a {
   flex: 1;
   padding-right: 35px;
   width: 60%;
+  margin-bottom: 40px;
 }
 
 .wrapper>.sidenav {
   position: -webkit-sticky;
   position: sticky;
   top: 20px;
-  height: 600px;
+  height: 730px;
+  width: 300px;
 }
 
 img.float-right {
@@ -816,8 +818,8 @@ footer a:hover {
 }
 
 .btn {
-  background: #e6a422 none repeat scroll 0 0;
-  border-color: #e6a422;
+  background: #2087c9 none repeat scroll 0 0;
+  border-color: #2087c9;
   border-radius: 6px;
   color: #fff !important;
   font-size: 24px;
@@ -829,8 +831,8 @@ footer a:hover {
 
 .btn:hover {
   text-decoration: none;
-  background-color: #bf8616;
-  border-color: #bf8616;
+  background-color: #125e8e;
+  border-color: #125e8e;
   color: #fff;
 }
 
@@ -870,5 +872,9 @@ footer a:hover {
     margin-left: 0;
     float: none;
     margin-bottom: 18px;
+  }
+
+  footer {
+    padding: 30px 20px 20px
   }
 }

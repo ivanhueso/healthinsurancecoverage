@@ -16,28 +16,24 @@ const Header = ({ siteTitle }) => (
       </div>
 
       <h1 style={{ margin: 0, float: 'left' }}>
-        <Link
-          to="/"
+        <img
+          src={logo}
+          alt="Health Insurance Coverage"
           style={{
-            color: `white`,
-            textDecoration: `none`,
+            marginBottom: `0.1rem`,
           }}
-        >
-          <img
-            src={logo}
-            alt="Health Insurance Coverage"
-            style={{
-              marginBottom: `0.1rem`,
-            }}
-          />
-        </Link>
+        />
       </h1>
       <ul class="top-menu hidden-xs">
         <li>
-          <a href="#">LIFE INSURANCE SAVINGS</a>
+          <a href="http://www.clkmg.com/ivanhueso/final-quote" target="_blank">
+            LIFE INSURANCE SAVINGS
+          </a>
         </li>
         <li>
-          <a href="#">LOWEST HEALTH INSURANCE RATES</a>
+          <a href="http://www.clkmg.com/ivanhueso/final-quote" target="_blank">
+            LOWEST HEALTH INSURANCE RATES
+          </a>
         </li>
       </ul>
     </div>
