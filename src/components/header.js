@@ -26,12 +26,18 @@ const Header = ({ siteTitle }) => (
       </h1>
       <ul class="top-menu hidden-xs">
         <li>
-          <a href="http://www.clkmg.com/ivanhueso/final-quote" target="_blank">
+          <a
+            href="http://track.healthinsurancecoverage.net/get-quote/life-insurance-nav-link"
+            target="_blank"
+          >
             LIFE INSURANCE SAVINGS
           </a>
         </li>
         <li>
-          <a href="http://www.clkmg.com/ivanhueso/final-quote" target="_blank">
+          <a
+            href="http://track.healthinsurancecoverage.net/get-quote/lowest-health-insurance-link"
+            target="_blank"
+          >
             LOWEST HEALTH INSURANCE RATES
           </a>
         </li>

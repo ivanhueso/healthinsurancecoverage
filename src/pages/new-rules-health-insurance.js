@@ -60,7 +60,7 @@ export default class NewRulesHealthInsurance extends React.Component {
               <br />
               Did you know that starting from January 1st you can now{' '}
               <a
-                href="http://www.clkmg.com/ivanhueso/final-quote"
+                href="http://track.healthinsurancecoverage.net/get-quote/choose-year-long-link"
                 target="_blank"
               >
                 choose a year long short-term plans without paying tax
@@ -95,7 +95,7 @@ export default class NewRulesHealthInsurance extends React.Component {
               <strong>So, what is the "New Rule?"</strong> NEVER buy health
               insurance plan without{' '}
               <a
-                href="http://www.clkmg.com/ivanhueso/final-quote"
+                href="http://track.healthinsurancecoverage.net/get-quote/comparing-discounts-link"
                 target="_blank"
               >
                 comparing the discounts available online first.
@@ -112,7 +112,7 @@ export default class NewRulesHealthInsurance extends React.Component {
               with industry leading providers to match you with carriers who
               typically have some of the{' '}
               <a
-                href="http://www.clkmg.com/ivanhueso/final-quote"
+                href="http://track.healthinsurancecoverage.net/get-quote/lowest-rates-link"
                 target="_blank"
               >
                 lowest rates right down to your exact ZIP CODE
@@ -126,7 +126,7 @@ export default class NewRulesHealthInsurance extends React.Component {
             <p>
               <strong>Step 1:</strong>{' '}
               <a
-                href="http://www.clkmg.com/ivanhueso/final-quote"
+                href="http://track.healthinsurancecoverage.net/get-quote/instantly-check-zipcode-link"
                 target="_blank"
               >
                 Click your state to instantly check your zip code for free
@@ -139,7 +139,7 @@ export default class NewRulesHealthInsurance extends React.Component {
             </p>
             <div style={{ maxWidth: `500px`, marginBottom: `2.5rem` }}>
               <a
-                href="http://www.clkmg.com/ivanhueso/final-quote"
+                href="http://track.healthinsurancecoverage.net/get-quote"
                 target="_blank"
               >
                 {' '}
@@ -148,7 +148,7 @@ export default class NewRulesHealthInsurance extends React.Component {
             </div>
             <a
               class="btn"
-              href="http://track.htrck402.com/click"
+              href="http://track.healthinsurancecoverage.net/get-quote/get-new-rate-btn"
               target="_blank"
             >
               Get Your New Rate - FREE »
@@ -156,7 +156,7 @@ export default class NewRulesHealthInsurance extends React.Component {
           </div>
           <div class="sidenav">
             <a
-              href="http://www.clkmg.com/ivanhueso/final-quote"
+              href="http://track.healthinsurancecoverage.net/get-quote/sidenav-ad"
               target="_blank"
             >
               <Ad />
