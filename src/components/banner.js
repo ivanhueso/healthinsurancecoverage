@@ -13,13 +13,13 @@ import Img from 'gatsby-image'
  * - `StaticQuery`: https://gatsby.app/staticquery
  */
 
-const Ad = () => (
+const Banner = () => (
   <StaticQuery
     query={graphql`
       query {
-        default: file(relativePath: { eq: "ad.png" }) {
+        default: file(relativePath: { eq: "free-diapers-samples.png" }) {
           childImageSharp {
-            fluid(maxWidth: 500) {
+            fluid(maxWidth: 970) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -29,4 +29,4 @@ const Ad = () => (
     render={data => <Img fluid={data.default.childImageSharp.fluid} />}
   />
 )
-export default Ad
+export default Banner

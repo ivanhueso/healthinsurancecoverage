@@ -1,10 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `Health Insurance`,
-    description: `Subscribe today and get the lastest news on health insurance, compare prices, take the right choice.`,
-    author: `@healthinsurancecoverage`,
+    title: `Get Best Offers`,
+    description: `Subscribe today and get the lastest health offers, wealth offers, and relationship offers`,
+    author: `@getbestoffers`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '184623225387301',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Droid Sans'],
+        },
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

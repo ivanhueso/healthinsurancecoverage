@@ -2,33 +2,27 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
-import Ad from '../components/ad'
+import Banner from '../components/banner'
 import SEO from '../components/seo'
-import IntroImg from '../images/family-with-health-insurance-happy.png' // Tell Webpack this JS file uses this image
-import CompareImg from '../images/health-insurance-price-comparison.png' // Tell Webpack this JS file uses this image
+import { Link } from 'gatsby'
 
 export default class Index extends React.Component {
-  getCurrentDate() {
-    var m = [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December',
-    ]
-
-    var now = new Date()
-    var month = now.getMonth()
-    return m[month] + ' ' + now.getDate() + ', ' + now.getFullYear()
-  }
   render() {
-    return <div />
+    return (
+      <Layout>
+        <SEO
+          title="Latest Offers"
+          keywords={[`free diapers`, `diapers samples`, `best samples`]}
+        />
+        <div class="wrapper">
+          <div class="main" style={{ width: '300px', margin: '0 auto 40px' }}>
+            <Image />
+          </div>
+          <Link to="/baby-samples-savings" title="Get Free Diapers Samples">
+            <Banner />
+          </Link>
+        </div>
+      </Layout>
+    )
   }
 }
